@@ -1,4 +1,4 @@
-package com.kade.testingmod;
+package com.kade;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;

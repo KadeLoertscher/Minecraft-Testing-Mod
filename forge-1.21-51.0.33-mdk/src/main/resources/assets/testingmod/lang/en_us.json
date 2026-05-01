@@ -1,0 +1,7 @@
+{
+	"item.testingmod.unobtainium" : "Unobtainium Ingot",
+	"item.testingmod.raw_unobtainium" : "Raw Unobtainium",
+	
+	"block.testingmod.unobtainium_block" : "Block of Unobtainium",
+	"block.testingmod.raw_unobtainium_block" : "Block of Raw Unobtainium"
+}

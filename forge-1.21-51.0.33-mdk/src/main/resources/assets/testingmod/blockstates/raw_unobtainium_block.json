@@ -1,0 +1,7 @@
+{
+	"variants" : {
+		"" : {
+			"model" : "testingmod:block/raw_unobtainium_block"
+		}
+	}
+}

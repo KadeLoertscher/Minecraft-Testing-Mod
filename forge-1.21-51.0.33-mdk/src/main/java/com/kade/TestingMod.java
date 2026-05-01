@@ -1,5 +1,7 @@
-package com.kade.testingmod;
+package com.kade;
 
+import com.kade.block.ModBlocks;
+import com.kade.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -45,6 +47,9 @@ public class TestingMod {
 
 		// Register ourselves for server and other game events we are interested in
 		MinecraftForge.EVENT_BUS.register(this);
+		
+		ModItems.register(modEventBus);
+		ModBlocks.register(modEventBus);
 
 		// Register the item to a creative tab
 		modEventBus.addListener(this::addCreative);
@@ -60,7 +65,15 @@ public class TestingMod {
 
 	// Add the example block item to the building blocks tab
 	private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+		if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			event.accept(ModItems.UNOBTAINIUM);
+			event.accept(ModItems.RAW_UNOBTAINIUM);
+		}
+		
+		if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			event.accept(ModBlocks.UNOBTAINIUM_BLOCK);
+			event.accept(ModBlocks.RAW_UNOBTAINIUM_BLOCK);
+		}
 	}
 
 	// You can use SubscribeEvent and let the Event Bus discover methods to call
