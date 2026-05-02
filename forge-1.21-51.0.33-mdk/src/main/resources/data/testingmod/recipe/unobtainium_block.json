@@ -1,0 +1,18 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"category" : "misc",
+	"key" : {
+		"A" : {
+			"item" : "testingmod:unobtainium"
+		}
+	},
+	"pattern" : [
+		"AAA",
+		"AAA",
+		"AAA"
+	],
+	"result" : {
+		"count" : 1,
+		"id" : "testingmod:unobtainium_block"
+	}
+}

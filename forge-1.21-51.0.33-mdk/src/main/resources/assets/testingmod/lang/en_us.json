@@ -3,5 +3,8 @@
 	"item.testingmod.raw_unobtainium" : "Raw Unobtainium",
 	
 	"block.testingmod.unobtainium_block" : "Block of Unobtainium",
-	"block.testingmod.raw_unobtainium_block" : "Block of Raw Unobtainium"
+	"block.testingmod.raw_unobtainium_block" : "Block of Raw Unobtainium",
+	
+	"creativetab.testingmod.unobtainium_items" : "Unobtainium Items",
+	"creativetab.testingmod.unobtainium_blocks" : "Unobtainium Blocks"
 }
