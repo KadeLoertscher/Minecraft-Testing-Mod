@@ -1,0 +1,8 @@
+{
+	"replace" : false,
+	"values" : [
+		"testingmod:unobtainium_block",
+		"testingmod:raw_unobtainium_block",
+		"testingmod:unobtainium_ore"
+	]
+}

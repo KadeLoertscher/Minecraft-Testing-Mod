@@ -35,6 +35,8 @@ public class ModCreativeModeTabs {
 			.displayItems((itemDisplayParamters, output) -> {
 				output.accept(ModBlocks.UNOBTAINIUM_BLOCK.get());
 				output.accept(ModBlocks.RAW_UNOBTAINIUM_BLOCK.get());
+				output.accept(ModBlocks.UNOBTAINIUM_ORE.get());
+				output.accept(ModBlocks.UNOBTAINIUM_DEEPSLATE_ORE.get());
 			})
 			.build());
 	

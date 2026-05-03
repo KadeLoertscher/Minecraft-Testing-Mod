@@ -4,6 +4,8 @@
 	
 	"block.testingmod.unobtainium_block" : "Block of Unobtainium",
 	"block.testingmod.raw_unobtainium_block" : "Block of Raw Unobtainium",
+	"block.testingmod.unobtainium_ore" : "Unobtainium Ore",
+	"block.testingmod.unobtainium_deepslate_ore" : "Deepslate Unobtainium Ore",
 	
 	"creativetab.testingmod.unobtainium_items" : "Unobtainium Items",
 	"creativetab.testingmod.unobtainium_blocks" : "Unobtainium Blocks"

@@ -38,9 +38,9 @@ public class TestingMod {
 		
 		/*
 		 * Registers custom:
+		 * Creative mode tabs
 		 * Items
 		 * Blocks
-		 * Creative mode tabs
 		 */
 		ModCreativeModeTabs.register(modEventBus); // Order doesn't matter anymore, but does in older versions potentially
 		ModItems.register(modEventBus);
@@ -74,6 +74,12 @@ public class TestingMod {
 		if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			event.accept(ModBlocks.UNOBTAINIUM_BLOCK);
 			event.accept(ModBlocks.RAW_UNOBTAINIUM_BLOCK);
+		}
+		
+		// Items to add to the Natural Blocks tab
+		if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			event.accept(ModBlocks.UNOBTAINIUM_ORE);
+			event.accept(ModBlocks.UNOBTAINIUM_DEEPSLATE_ORE);
 		}
 	}
 
